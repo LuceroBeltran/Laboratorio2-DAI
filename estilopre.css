@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia|Roboto&effectfect=shadow-multiple&display=swap');
+
+h1{
+    color: #ef476f;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #ced4da;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    text-decoration: overline underline;
+}
+.caja{
+    padding: 100px;
+    width: 20%;
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+    float: left;
+}
+
+.fuente_roboto{
+    font: italic small-caps bolder 20px Roboto, sans-serif;
+}
+.caja.sans-serif{
+    background-color: #090218;
+}
+.fuente_courier{
+    font-family: 'Courier New', Courier, monospace;
+}
+.caja.cursive{
+    background-color: lightcoral;
+}
+.fuente_lucida{
+    font-family: 'Lucida Handwriting', cursive;
+}
